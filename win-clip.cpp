@@ -141,7 +141,8 @@ void PrintUsage() {
               << "    -o <filepath or \"-\">   Read from clipboard and write "
                  "to <file> or "
                  "stdout (\"-\")\n"
-              << "Exactly one of -i or -o must be provided.\n";
+              << "    Use -i or -o but not both.\n"
+              << "    (Version 0.1)\n";
 }
 
 bool ParseArgs(int argc, char *argv[], Config &config) {
