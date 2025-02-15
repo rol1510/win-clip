@@ -1,7 +1,7 @@
 #include "lib.h"
 
 void PrintUsage() {
-    std::cerr << "Usage: program <options>\n"
+    std::cerr << "Usage: win-clip <options>\n"
               << "    -i <filepath or \"-\">   Read from <file> or stdin "
                  "(\"-\") and copy to "
                  "clipboard\n"
